@@ -1,0 +1,73 @@
+@font-face {
+  font-family: 'metal-lord';
+  src: url('assets/fonts/metal lord.ttf');
+}
+
+html {
+  font-size: 120%;
+}
+
+body, h1, h2, h3, h4, p, li {
+  color: white;
+  background-color: black !important;
+  font-family: monospace;
+}
+
+h1 {
+  text-align: center;
+}
+
+.titlebox {
+  padding-bottom: 4rem;
+}
+
+.title, .header {
+  font-family: 'metal-lord', monospace;
+  color: red;
+}
+
+@media (min-width: 576px) {
+  .title {
+    font-size: 8rem;
+  }
+  .subtitle {
+    font-size: 1.44rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .title {
+    font-size: 22.4vw;
+  }
+  .subtitle {
+    font-size: 4vw;
+  }
+}
+
+.subtitle {
+  font-family: Pinyon Script, monospace;
+  text-align: center;
+  color: gray;
+}
+
+img {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+.discontainer {
+  padding: 0;
+}
+
+.discontainer p {
+  text-align: center;
+}
+
+.discontainer:hover {
+  transform: translateY(5px);
+}
+
+.discinfo p {
+  text-align: left;
+}
